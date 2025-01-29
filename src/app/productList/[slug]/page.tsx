@@ -4,7 +4,7 @@ import { Product } from "../../../../types/products";
 import ProductDetailClient from "./ProductDetailClient";
 
 // Fetch product details from the Sanity client
-async function fetchProductDetail(slug: string): Promise<Product> {
+async function fetchProductDetail(slug: string): Promise<any> {
   return client.fetch(
     groq`*[_type == "product" && slug.current == $slug][0]{
       _id,
