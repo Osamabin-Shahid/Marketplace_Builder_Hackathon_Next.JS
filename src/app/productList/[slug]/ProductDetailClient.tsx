@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { Product } from "../../../../types/products"
 import Image from "next/image"
 import { urlFor } from "@/sanity/lib/image"
-import { addToCart } from "@/app/cartAction/page"
+import { addToCart } from "@/app/cartAction/action"
 import Swal from "sweetalert2"
 import { Any } from "next-sanity"
 

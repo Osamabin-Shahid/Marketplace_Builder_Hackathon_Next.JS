@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Product } from "../../../types/products";
-import { getCart } from "../cartAction/page";
+import { getCart } from "../cartAction/action";
 import Link from "next/link";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";

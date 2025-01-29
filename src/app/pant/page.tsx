@@ -9,7 +9,7 @@ import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import Swal from "sweetalert2";
-import { addToCart } from "../cartAction/page";
+import { addToCart } from "../cartAction/action";
 
 const Pant = () => {
   const [products, setProducts] = useState<Product[]>([]);

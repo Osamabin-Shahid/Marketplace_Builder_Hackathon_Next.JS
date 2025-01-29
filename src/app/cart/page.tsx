@@ -5,7 +5,7 @@ import { Product } from "../../../types/products"
 import Swal from "sweetalert2"
 import Image from "next/image"
 import { urlFor } from "@/sanity/lib/image"
-import { getCart, removeFromCart, updateCartQuantity } from "../cartAction/page"
+import { getCart, removeFromCart, updateCartQuantity } from "../cartAction/action"
 import { useRouter } from "next/navigation"
 
 const CartPage = () => {
