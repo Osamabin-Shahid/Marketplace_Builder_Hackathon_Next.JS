@@ -18,14 +18,16 @@ async function fetchProductDetail(slug: string): Promise<Product> {
   );
 }
 
-// Define the expected props for your page
 interface ProductDetailProps {
   params: { slug: string };
 }
 
+// Make the page component async
 const ProductDetail = async ({ params }: ProductDetailProps) => {
   const { slug } = params;
-  const product = await fetchProductDetail(slug);  // Fetching the data asynchronously
+  
+  // Fetch product details
+  const product = await fetchProductDetail(slug);
 
   return <ProductDetailClient product={product} />;
 };
