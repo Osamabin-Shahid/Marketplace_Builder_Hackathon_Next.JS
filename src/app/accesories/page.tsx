@@ -18,7 +18,7 @@ const Accessories = () => {
   useEffect(() => {
     async function fetchProducts() {
       const response: Product[] = await client.fetch(accessories);
-      setProducts(response);1                                     
+      setProducts(response);                                   
     }
     fetchProducts();
   }, []);
@@ -26,8 +26,8 @@ const Accessories = () => {
   const handleAddToCart = (e: React.MouseEvent, product: Product) => {
     e.preventDefault();
     Swal.fire({
-        position : 'top-end',
-        icon : 'success',
+        position : "top-end",
+        icon : "success",
         title : `${product.productName}  added to cart`,
         showConfirmButton : false,
         timer : 1000,

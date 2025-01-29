@@ -14,7 +14,6 @@ import {
   navigationMenuTriggerStyle,
 } from "../../components/ui/navigation-menu";
 
-NavigationMenuList;
 
 const components: { title: string; href: string; description: string }[] = [
   {

@@ -21,7 +21,7 @@ function AboutUs() {
         </h1>
 
         <p className="text-[14px] md:text-[16px] font-normal mt-4 lg:mt-6 leading-relaxed">
-          Welcome to MENS APPAREL, where style meets comfort. We are a mens apparel brand offering a curated collection of high-quality shirts, pants, shoes, and accessories for the modern man. Whether you're dressing up for work or dressing down for the weekend, we have something for every occasion.</p>
+          Welcome to MENS APPAREL, where style meets comfort. We are a mens apparel brand offering a curated collection of high-quality shirts, pants, shoes, and accessories for the modern man. Whether you&#39;re dressing up for work or dressing down for the weekend, we have something for every occasion.</p>
 
         <h2 className='text-[20px] py-5 md:text-[24px] font-bold text-yellow-400 font-greatVibes'>Our Mission</h2>
         <p>Our goal is simple: to provide fashionable, durable, and affordable clothing that helps men look and feel their best. From classic designs to the latest trends, we ensure our products deliver both style and comfort.</p>
