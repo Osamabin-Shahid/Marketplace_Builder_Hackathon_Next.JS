@@ -9,7 +9,7 @@ import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import Swal from "sweetalert2";
-import { addToCart } from "../cartAction/action";
+import { addToCartAction } from "../cartAction/action";
 
 
 const Accessories = () => {
@@ -32,7 +32,7 @@ const Accessories = () => {
         showConfirmButton : false,
         timer : 1000,
     })
-    addToCart(product);
+    addToCartAction(product);
     
   };
 

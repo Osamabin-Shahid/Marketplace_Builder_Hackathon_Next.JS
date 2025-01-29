@@ -8,7 +8,7 @@ import Link from "next/link";
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import Swal from "sweetalert2";
-import { addToCart } from "../cartAction/action";
+import { addToCartAction } from "../cartAction/action";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Shirt = () => {
@@ -31,7 +31,7 @@ const Shirt = () => {
       showConfirmButton: false,
       timer: 1000,
     });
-    addToCart(product);
+    addToCartAction(product);
   };
 
   return (

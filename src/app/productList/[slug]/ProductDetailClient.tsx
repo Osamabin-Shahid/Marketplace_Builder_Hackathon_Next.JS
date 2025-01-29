@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { Product } from "../../../../types/products"
 import Image from "next/image"
 import { urlFor } from "@/sanity/lib/image"
-import { addToCart } from "@/app/cartAction/action"
+import { addToCartAction } from "@/app/cartAction/action"
 import Swal from "sweetalert2"
 import { Any } from "next-sanity"
 
@@ -18,13 +18,13 @@ function HandleAddToCart(e: React.MouseEvent, product: Product) {
         showConfirmButton: false,
         timer: 1000,
       });
-      addToCart(product)
+      addToCartAction(product)
 
 }
 
 // Helper function to handle Buy Now action
 function buyNow(product: Product, router: Any) {
-  addToCart( product)
+  addToCartAction( product)
   router.push("/checkout")
 }
 
