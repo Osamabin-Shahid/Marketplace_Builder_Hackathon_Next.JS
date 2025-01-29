@@ -6,6 +6,7 @@ import Image from "next/image"
 import { urlFor } from "@/sanity/lib/image"
 import { addToCart } from "@/app/cartAction/page"
 import Swal from "sweetalert2"
+import { Any } from "next-sanity"
 
 // Helper function to add item to the cart
 function HandleAddToCart(e: React.MouseEvent, product: Product) {
@@ -22,7 +23,7 @@ function HandleAddToCart(e: React.MouseEvent, product: Product) {
 }
 
 // Helper function to handle Buy Now action
-function buyNow(product: Product, router: any) {
+function buyNow(product: Product, router: Any) {
   addToCart( product)
   router.push("/checkout")
 }

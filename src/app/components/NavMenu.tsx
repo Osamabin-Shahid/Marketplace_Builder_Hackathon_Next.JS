@@ -1,11 +1,8 @@
+"use client";
 
-"use client"
-
-import * as React from "react"
-import Link from "next/link"
-import { cn } from "../../lib/utils"
-
-// import { Icons } from "../../components/icons"
+import * as React from "react";
+import Link from "next/link";
+import { cn } from "../../lib/utils";
 
 import {
   NavigationMenu,
@@ -15,45 +12,40 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "../../components/ui/navigation-menu"
+} from "../../components/ui/navigation-menu";
 
-NavigationMenuList
+NavigationMenuList;
 
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Shirts",
     href: "/shirt",
-    description:
-      "Stylish shirts for every occasion—comfort and fit combined.",
+    description: "Stylish shirts for every occasion—comfort and fit combined.",
   },
   {
     title: "Pant",
     href: "/pant",
-    description:
-      "Perfect-fitting pants, from casual to formal styles.",
+    description: "Perfect-fitting pants, from casual to formal styles.",
   },
   {
     title: "Shoes",
     href: "/shoes",
-    description:
-      "Footwear for every style—comfort and fashion in one.",
+    description: "Footwear for every style—comfort and fashion in one.",
   },
   {
     title: "Accessories/Jewelleries",
     href: "/accesories",
     description: "Complete your look with trendy and functional accessories.",
   },
-  
-]
+];
 
 export function NavigationMenuDemo() {
   return (
-    <NavigationMenu >
-      <NavigationMenuList >
-       
-        <NavigationMenuItem >
+    <NavigationMenu>
+      <NavigationMenuList>
+        <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()} >
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home
             </NavigationMenuLink>
           </Link>
@@ -90,7 +82,7 @@ export function NavigationMenuDemo() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-  )
+  );
 }
 
 const ListItem = React.forwardRef<
@@ -115,6 +107,6 @@ const ListItem = React.forwardRef<
         </a>
       </NavigationMenuLink>
     </li>
-  )
-})
-ListItem.displayName = "ListItem"
+  );
+});
+ListItem.displayName = "ListItem";

@@ -2,8 +2,7 @@ import Hero from "./components/Hero";
 import Promotion from "./components/Promotion";
 import Services from "./components/Services";
 import Categories from "./components/Categories"
-import SearchComponent from "./components/search";
-import { productSchema } from "@/sanity/schemaTypes/product";
+
 
 
 export default function Home() {
