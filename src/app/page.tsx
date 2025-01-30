@@ -10,8 +10,7 @@ export default function Home() {
     <div className="bg-myColor4">
       <Hero/>
       <Services/>
-      <Promotion/>
-      
+      <Promotion/>      
       <Categories/>
     </div>
   );

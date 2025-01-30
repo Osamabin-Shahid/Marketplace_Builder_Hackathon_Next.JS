@@ -20,7 +20,7 @@ const Categories = () => {
         <div className="carousel carousel-end  rounded-box mx-auto px-4 sm:px-10 md:px-16 lg:px-32">
           <div className="carousel-item p-2">
             <Image
-              src="/about3.jpg"
+              src="/about3.jpeg"
               alt="Category 1"
               className="w-[300px] h-[400px] "
               width={300}
@@ -29,7 +29,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/about2.jpg"
+              src="/about2.jpeg"
               alt="Category 2"
               className="w-[300px] h-[400px]"
               width={300}
@@ -38,7 +38,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/belt2.jpg"
+              src="/belt2.jpeg"
               alt="Category 3"
               className="w-[300px] h-[400px]"
               width={300}
@@ -47,7 +47,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/shoes5.jpg"
+              src="/shoes5.jpeg"
               alt="Category 4"
               className="w-[300px] h-[400px]"
               width={300}
@@ -56,7 +56,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/about1.jpg"
+              src="/about1.jpeg"
               alt="Category 5"
               className="w-[300px] h-[400px]"
               width={300}
@@ -65,7 +65,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/shoes2.jpg"
+              src="/shoes2.jpeg"
               alt="Category 6"
               className="w-[300px] h-[400px]"
               width={300}
@@ -74,7 +74,7 @@ const Categories = () => {
           </div>
           <div className="carousel-item p-2">
             <Image
-              src="/belt4.jpg"
+              src="/belt4.jpeg"
               alt="Category 6"
               className="w-[300px] h-[400px]"
               width={300}

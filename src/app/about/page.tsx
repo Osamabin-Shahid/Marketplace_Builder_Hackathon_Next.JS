@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa6";
 
-import about1 from "../../../public/shoes4.jpg";
-import about2 from "../../../public/belt2.jpg";
-import about3 from "../../../public/about3.jpg";
+import about1 from "../../../public/shoes4.jpeg";
+import about2 from "../../../public/belt2.jpeg";
+import about3 from "../../../public/about3.jpeg";
 
 function AboutUs() {
   return (

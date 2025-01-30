@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .custom-img {
-    background-image:  url("../../public/Hero.jpg");
+    background-image:  url("../../public/Hero.jpeg");
 }
 
 .promo1 {
-    background-image: url('../../public/promo1.jpg');
+    background-image: url('../../public/promo1.jpeg');
 }
 
 .promo2 {
-    background-image: url('../../public/watch1.jpg');
+    background-image: url('../../public/watch1.jpeg');
 }

@@ -16,7 +16,7 @@ function HandleAddToCart(e: React.MouseEvent, product: Product) {
         icon: "success",
         title: `${product.productName}  added to cart`,
         showConfirmButton: false,
-        timer: 1000,
+        timer: 1000,  
       });
       addToCartAction(product)
 

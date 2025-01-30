@@ -4,7 +4,7 @@ import { Product } from "../../../../types/products";
 import ProductDetailClient from "./ProductDetailClient";
 
 // Fetch product details from the Sanity client
-async function fetchProductDetail(slug: string): Promise<any> {
+async function fetchProductDetail(slug: string): Promise<Product> {
   return client.fetch(
     groq`*[_type == "product" && slug.current == $slug][0]{
       _id,
@@ -16,15 +16,15 @@ async function fetchProductDetail(slug: string): Promise<any> {
     }`,
     { slug }
   );
-}
+} 
 
 interface ProductDetailProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 // Make the page component async
 const ProductDetail = async ({ params }: ProductDetailProps) => {
-  const { slug } = params;
+  const { slug } = await params;
   
   // Fetch product details
   const product = await fetchProductDetail(slug);
