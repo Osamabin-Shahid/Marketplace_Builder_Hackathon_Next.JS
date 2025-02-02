@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Men's Apparel Marketplace
 
-## Getting Started
+This is a fully functional e-commerce platform built specifically for men's apparel. The marketplace is designed to provide an easy and seamless shopping experience for boys and men, offering a wide range of clothing and accessories with a focus on affordability, fast delivery, and up-to-date fashion styles.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Men's Apparel Marketplace aims to provide a unique online shopping experience with the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Affordable Pricing**: Budget-friendly options for all users.
+- **Fast & Reliable Delivery**: Ensuring a quick and dependable shipping process.
+- **Wide Range of Products**: A variety of clothing, accessories, and more.
+- **Customer-Centric Service**: Prioritizing customer satisfaction with dedicated support.
+- **Up-to-Date Fashion**: Always offering the latest styles in men's fashion.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js
+- **Styling**: Tailwind CSS
+- **CMS**: Sanity CMS
+- **State Management**: React Hooks
+- **API Integration**: Sanity API
 
-## Learn More
+## Features & Functionality
 
-To learn more about Next.js, take a look at the following resources:
+1. **Responsive Design**: The website is fully responsive, ensuring it works seamlessly on all devices.
+2. **Product Listing**: A dynamic product listing component that fetches product data from Sanity CMS and displays it on the product page.
+3. **Product Search**: A functional search bar that allows users to search products by name and view product details.
+4. **Add to Cart**: Users can add products to their cart and proceed to checkout.
+5. **Checkout**: On the checkout page, users can input shipping details and place their orders.
+6. **API Integration**: The product data is fetched through the Sanity CMS API, which allows for easy updates and management.
+7. **SEO & Performance Optimization**: The website has been optimized using Lighthouse tool tests to ensure performance, accessibility, and best practices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development Phases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Day 01**: Laying the foundation by choosing the marketplace type (General E-commerce) and defining the target audience (boys and men). Unique selling points include affordability, fast delivery, and customer-centric service.
+2. **Day 02**: Established the technical foundation with a responsive design, page definitions, and backend management via Sanity CMS.
+3. **Day 03**: API integration to fetch and display product data on the website.
+4. **Day 04**: Implemented dynamic product listing and added search functionality. Also included an add-to-cart feature and checkout page.
+5. **Day 05**: Conducted testing using Lighthouse tool to analyze performance, SEO, accessibility, and best practices.
+6. **Day 06**: Deployment preparation with staging environment setup, successfully deploying the site on Vercel and integrating environment variables to fetch API data.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The marketplace is deployed on Vercel, and the staging environment was set up to ensure the application functions as expected before going live. The deployment includes secure configuration of environment variables and API integration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mens-apparel-marketplace.git
+   
+2. Navigate to project folder
+   ```bash
+   cd mens-apparel-marketplace
+
+3. Install dependencies
+   ```bash
+   npm install
+
+4. Run the development server
+   ```bash
+   npm run dev
+
+5. Open the browser and visit
+   ```bash
+   http://localhost:3000
+
+## Conclusion
+This Men's Apparel Marketplace project has successfully created a functional, user-friendly platform with a focus on providing a seamless shopping experience for customers. The integration of modern web technologies and CMS has allowed for scalability, easy content management, and an optimized user interface.
